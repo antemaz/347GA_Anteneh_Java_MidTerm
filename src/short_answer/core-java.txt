@@ -1,7 +1,7 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer: It is a structured instruction
 
 What is a JDK composed of? Define each components?
 Answer:
