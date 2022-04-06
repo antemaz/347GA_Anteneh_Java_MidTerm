@@ -1,20 +1,6 @@
 package json.util;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.net.URLConnection;
-import java.util.ArrayList;
-import java.util.List;
-
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import json.Employee;
-
-public class JsonReaderUtil {
+//public class JsonReaderUtil {
 
     /** INSTRUCTIONS
      * An API URL is provided below. This RestAPI will return you a JSON response.
@@ -40,7 +26,7 @@ public class JsonReaderUtil {
      *          JSON is... look it up!
      **/
 
-    public static void main(String[] args) throws IOException {
+   /* public static void main(String[] args) throws IOException {
         String sURL = "http://info.venturepulse.org:8080/service-webapp/api/AllEmployeeResources";
         URL url = new URL(sURL);
         URLConnection request = url.openConnection();
@@ -84,4 +70,4 @@ public class JsonReaderUtil {
         }
     }
 
-}
+}*/
