@@ -16,31 +16,21 @@ public class Anagram {
      */
 
     // Implement Here
-    static void Anagram(String str1, String str2) {
-       String s1=str1.replaceAll("\\s","");
-        String s2=str2.replaceAll("\\s","");
-        boolean status = true;
-        if(s1.length()!=s2.length()) {
-            status=false;
+    static void Anagram(String Rank1, String Rank2) {
+       String string1=Rank1.replaceAll("\\s","");
+        String string2=Rank2.replaceAll("\\s","");
+        if(Rank1.length()!=Rank2.length()) {
         }
         else {
-            char[]ArrayS1=s1.toLowerCase().toCharArray();
-            char[]ArrayS2=s2.toLowerCase().toCharArray();
+            char[]ArrayS1=string1.toLowerCase().toCharArray();
+            char[]ArrayS2=string2.toLowerCase().toCharArray();
             Arrays.sort(ArrayS1);
             Arrays.sort(ArrayS2);
-            status=Arrays.equals(ArrayS1,ArrayS2);
         }
-        if(status){
-           System.out.println(s1+" and "+s2+" are anagrams");
+           System.out.println(string1+" and "+string2+" are Anagrams");
         }
-        else{
-            System.out.println(s1+" and "+s2+" are not anagrams");
-        }
-        }
-
     public static void main(String[]args){
-        Anagram("Keep","Peek");
-        Anagram("Mother In Law","Hitler Woman");
+        Anagram("Night","Thing");
 }
     }
 
