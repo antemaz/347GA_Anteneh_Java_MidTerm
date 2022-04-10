@@ -11,7 +11,8 @@ Answer:Organization of Data
        Processing alternatives for information
 
 When would we use data structures in the real world?
-Answer:
+Answer: In general, algorithms that involve efficient data structure is applied in the numerical analysis,
+        operating system, A.I., compiler design, database management, graphics, and statistical analysis
 
 What is an Array?
 Answer: An array is a container object that holds a fixed number of values of a single type.
@@ -61,25 +62,34 @@ Describe what a graph data structure is?
 Answer:
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer:HashTable can be shared with many threads, hence it is a synchronized one while HashMap can not be shared with many
+       threads without proper synchronization code, hence it is not a synchronized one
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
 Answer:
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer:he ArrayIndexOutOfBounds exception is thrown if a program tries to access an array index that is negative, greater than,
+       or equal to the length of the array.
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer: There are mainly four different ways
+  Manually.
+  Arrays.copyOf()
+  System.arraycopy()
+  Object.clone()
 
 What is DFS and BFS?
-Answer:
+Answer:BFS stands for Breadth First Search. DFS stands for Depth First Search.
+       BFS(Breadth First Search) uses Queue data structure for finding the shortest path.
+       DFS(Depth First Search) uses Stack data structure
 
 What is Recursion?
-Answer:
+Answer:a method that calls itself is known as a recursive method. And, this process is known as recursion
 
 What are linear and non-linear data Structures?
-Answer:
+Answer:A linear data structure is a type of data structure that arranges the data items in an orderly manner where the elements are attached adjacently
+       while a nonlinear data structure is a type of data structure that arranges data in sorted order, creating a relationship among the data elements.
 
 
 Outline different sorting algorithms and their time complexities:

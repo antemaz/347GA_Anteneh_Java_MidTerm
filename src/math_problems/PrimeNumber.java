@@ -11,7 +11,18 @@ public class PrimeNumber {
 
 
     public static void main(String[] args) {
-
+for(int num = 2; num<1000000;num++){
+    boolean isPrime =true;
+    for(int p =2; p<num;p++) {
+        if (num % p == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+    if(isPrime==true){
+        System.out.print(num+" ");
+        }
+    }
+}
     }
 
-}
