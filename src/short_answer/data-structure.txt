@@ -1,46 +1,61 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer:Data structures are utilized as a system for arranging and putting away data in virtual memory structures.
+       Data structures sort out and organize data into datasets and databases that can be packed effectively to spare extra room.
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer:Organization of Data
+       Accessing methods
+       Degree of associativity
+       Processing alternatives for information
 
 When would we use data structures in the real world?
 Answer:
 
 What is an Array?
-Answer:
+Answer: An array is a container object that holds a fixed number of values of a single type.
+        The length of an array is established when the array is created.
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer: Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
 
 What is a LinkedList?
-Answer:
+Answer: The LinkedList class is a collection which can contain many objects of the same type, just like the ArrayList .
 
 How is an Array different from LinkedList?
-Answer:
+Answer: Arrays are index based data structure where each element associated with an index. On the other hand,Linked
+     list relies on references where each node consists of the data and the references to the previous and next element.
 
 What is a Queue?
-Answer:
+Answer: A queue is linear data structure that is used to store elements just like any other data structure but in
+        a particular manner.
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer: A stack is an ordered collection of items where the addition of new items and the removal of existing items
+        always takes place at the same end. This end is commonly referred to as the “top.” The end opposite the top
+        is known as the “base.”
 
 What is FIFO and LIFO?
-Answer:
+Answer: FIFO is an abbreviation for first in, first out and ; it is a method for handling data structures
+        where the first element is processed first and the newest element is processed last.
+        LIFO is an abbreviation for Last in, first out is same as fist in, last out (FILO) and it is a method for
+        handling data structures where the last element is processed first and the first element is processed last.
 
 Explain Big O Notation?
-Answer:
+Answer: Big O Notation is a way to measure an algorithm's efficiency. It measures the time it takes to run our
+        function as the input grows. Or in other words, how well does the function scale.
 
 What is the best case to search an element from an array?
-Answer:
+Answer: The best case is linear search since it starts the searching from the beginning.
 
 What is the worst case to search an element from an array?
-Answer:
+Answer: The worst case is binary search; the searching starts after splitting the center of array,
+        so it will take much time to provide the search result
 
 Describe what a tree data structure is?
-Answer:
+Answer:A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures.
+       A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees.
 
 Describe what a graph data structure is?
 Answer:
@@ -66,5 +81,5 @@ Answer:
 What are linear and non-linear data Structures?
 Answer:
 
-Outline different sorting algorithms and their time complexities:
 
+Outline different sorting algorithms and their time complexities:

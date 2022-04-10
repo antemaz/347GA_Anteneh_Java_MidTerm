@@ -16,18 +16,18 @@ public class Anagram {
      */
 
     // Implement Here
-    static void Anagram(String Rank1, String Rank2) {
-       String string1=Rank1.replaceAll("\\s","");
-        String string2=Rank2.replaceAll("\\s","");
-        if(Rank1.length()!=Rank2.length()) {
+    static void Anagram(String color1, String color2) {
+       String word1=color1.replaceAll("\\s","");
+        String word2=color2.replaceAll("\\s","");
+        if(color1.length()!=color2.length()) {
         }
         else {
-            char[]ArrayS1=string1.toLowerCase().toCharArray();
-            char[]ArrayS2=string2.toLowerCase().toCharArray();
+            char[]ArrayS1=word1.toLowerCase().toCharArray();
+            char[]ArrayS2=word2.toLowerCase().toCharArray();
             Arrays.sort(ArrayS1);
             Arrays.sort(ArrayS2);
         }
-           System.out.println(string1+" and "+string2+" are Anagrams");
+           System.out.println(word1+" and "+word2+" are Anagrams");
         }
     public static void main(String[]args){
         Anagram("Night","Thing");

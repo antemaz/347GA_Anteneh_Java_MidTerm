@@ -9,7 +9,16 @@ public class Fibonacci {
      **/
 
     public static void main(String[] args) {
-
+       int prev, next, sum, n;
+        prev=next=1;
+        for(n=-30;n<=10;n++)
+        {
+            System.out.print(","+prev);
+            sum=prev+next;
+            prev=next;
+            next=sum;
+        }
+        }
     }
 
-}
+

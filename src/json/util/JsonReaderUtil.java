@@ -26,7 +26,7 @@ package json.util;
      *          JSON is... look it up!
      **/
 
-   /* public static void main(String[] args) throws IOException {
+   /*public static void main(String[] args) throws IOException {
         String sURL = "http://info.venturepulse.org:8080/service-webapp/api/AllEmployeeResources";
         URL url = new URL(sURL);
         URLConnection request = url.openConnection();
